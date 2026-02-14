@@ -1,4 +1,4 @@
-# Edu-tech
+# Edu-tech : Gamified learning and quiz platform
 <br>
 Authors- Adithi Upadya, Sameeksha, Jiya Shetty
 <br>
