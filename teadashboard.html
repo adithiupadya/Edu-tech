@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="teacherdashboard" class="view">
+        <div class="teachercontainer">
+            <h2>Student List</h2>
+            <ul id="studentlist"></ul>
+        </div>
+   <section id="studentdetailview" class="view">
+  <div class="analyticscard">
+    <button class="back-btn" onclick="navigateTo('teacherdashboard')">
+      Back to List
+    </button>
+
+    <h2 id="detail-student-name">Student stats</h2>
+
+    <div class="stats-grid">
+      <div class="stat-box">🔥 Streak: <span id="stat-streak">0</span></div>
+      <div class="stat-box">📊 Quiz Score: <span id="stat-score">0</span></div>
+      <div class="stat-box">📅 Activity: <span id="stat-activity">High</span></div>
+      <div class="stat-box">⏳ Time Spent: <span id="stat-time">0h</span></div>
+      <div class="stat-box">🏅 Badges: <span id="stat-badges">None</span></div>
+    </div>
+
+  </div>
+</section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
