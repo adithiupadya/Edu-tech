@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>Menu</h2>
+  <ul>
+    <li><button class="dash-btn" type="button">👤 Profile</button></li>
+    <li><button class="dash-btn" onclick="leaderboard()">🏆 Leaderboard</button></li>
+    <li><button class="dash-btn" onclick="quizzes()">🧠 Quizzes</button></li>
+    <li><button class="dash-btn" onclick="weeklyquest()">🎯 Weekly Quest</button></li>
+    <li><button class="dash-btn" onclick="activity()">📊 Activity</button></li>
+    <li><button class="dash-btn" onclick="timespent()">⏱ Time Spent</button></li>
+    <li><button class="dash-btn" onclick="streaks()">🔥 Streaks</button></li>
+    <li><button class="dash-btn" onclick="settings()">⚙ Settings</button></li>
+  </ul>
+</div>
+
+<div class="main">
+  <h1 id="welcome"></h1>
+
+  <button class="start-btn"> Start Quiz</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
